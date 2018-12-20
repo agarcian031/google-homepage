@@ -134,5 +134,40 @@ a {
     display: flex; 
 }
 
+footer {
+    height: 50px;
+    position: absolute;
+    right: 0; 
+    bottom: 0; 
+    left: 0; 
+    background-color:#eeeeee; 
+}
+
+#bottom-links{
+    position: absolute; 
+    display: flex; 
+    top: 17px; 
+    right: 0; 
+    width: 100%;
+   
+}
+
+#footer-left {
+    position: absolute; 
+    text-decoration: none;  
+    font-size: 13px; 
+    display: flex;  
+    padding-left: 15px;
+}
+
+#footer-right {
+    position: absolute; 
+    text-decoration: none; 
+    font-size: 13px; 
+    display: flex; 
+    padding-right: 15px; 
+    right: 0; 
+}
+
 
 
