@@ -76,3 +76,63 @@ a {
 
 }
 
+.search-box {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+#form-box {
+    width: 450px; 
+    font-size: 16px;
+    height: 40px; 
+    left: 10px; 
+    display: flex; 
+    padding: 6px; 
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);  
+
+}
+
+#search-bar {
+    width: 420px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+}
+
+::placeholder {
+    color: gray; 
+    opacity: 3; 
+    left: 10px; 
+}
+
+#microphone {
+    width: 15px; 
+    height: 20px; 
+    align-self: center; 
+    margin-left: 50px; 
+    margin-right: 10px; 
+}
+
+.buttons {
+    /* text-align: cetner;  */
+    top: 30px; 
+    position: relative; 
+    height: 35px; 
+    padding: 10px 10px; 
+    margin: 0 15px; 
+    border: none; 
+    cursor: pointer; 
+    font-weight: bold;
+    color: gray; 
+    border: none;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.04); 
+}
+
+.search-buttons {
+    display: flex; 
+}
+
+
+
