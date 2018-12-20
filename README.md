@@ -7,3 +7,5 @@ The purpose of the assignment is to start thinking about how elements get placed
 and how they get styled and aligned. 
   <br> 
 From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
+<br>
+Live Preview [HERE](https://agarcian031.github.io/google-homepage/)
