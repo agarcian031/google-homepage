@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+    padding: 0; 
+    margin: 0; 
+}
+
+a {
+    text-decoration: none; 
+    color: black; 
+    padding-left: 15px; 
+}
+
+#navigation {
+    position: absolute; 
+    display: inline-block; 
+    width: 100%; 
+    right: 0px;
+    top: 10px; 
+}
+
+#grid {
+    color: black; 
+    font-size: 20px;
+    padding-left: 15px; 
+    cursor: pointer; 
+    opacity: .5;  
+}
+
+#bell{
+    color: black; 
+    font-size: 20px; 
+    padding-left: 15px; 
+    cursor: pointer; 
+    opacity: .5; 
+}
+
+#google-img{
+    height: 32px; 
+    background-size: 32px 32px; 
+    width: 32px; 
+    border-radius: 50%; 
+    left: 17px; 
+    position: relative; 
+    top: 5px; 
+    cursor: pointer; 
+}
+
+#left-side {
+    margin: 13px 0 0 15px;
+    position: absolute; 
+    text-decoration: none; 
+    font-size: 13px; 
+    display: flex; 
+    padding-left: 15px;
+     
+
+}
+#right-side{
+    margin: 0 28px 0 0; 
+    position: absolute; 
+    right: 0; 
+    font-size: 13px; 
+    display: block;  
+    padding-right: 15px; 
+}
+
